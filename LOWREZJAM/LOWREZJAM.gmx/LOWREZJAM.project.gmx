@@ -28,6 +28,7 @@
     <sprite>sprites\spr_ghost_front</sprite>
     <sprite>sprites\spr_ghost_side</sprite>
     <sprite>sprites\spr_ghost_back</sprite>
+    <sprite>sprites\spr_closet_inside</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_carpet</background>
@@ -60,9 +61,11 @@
     <object>objects\obj_wall</object>
     <object>objects\obj_camera</object>
     <object>objects\obj_text</object>
+    <object>objects\obj_closet_inside</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room_house</room>
+    <room>rooms\room_closet_inside</room>
   </rooms>
   <constants number="6">
     <constant name="FACE_UP">0</constant>
